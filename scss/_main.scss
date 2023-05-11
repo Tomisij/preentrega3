@@ -5,6 +5,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
     h2 {
         margin-bottom: 50px;
         background-image: linear-gradient(black, rgb(152, 93, 207));
