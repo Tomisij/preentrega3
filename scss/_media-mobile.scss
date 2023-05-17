@@ -192,7 +192,7 @@
 
 @media (max-width: 320px) {
     .body {
-        background-color: black; 
+        background-color: black;
     }
 
     .grilla {
@@ -215,11 +215,13 @@
         main {
             grid-area: main;
             height: 40vh;
+            margin-bottom: 100px;
         }
         footer {
             grid-area: footer;
             height: 30vh;
         }
+        
         
     }
 
@@ -228,9 +230,12 @@
         width: 100vw;
     }
 
+    .container-quienes {
+        width: 100vw;
+    }
 
     .section-article .articlesection {
-        width: 100vw;
+        width: 100%;
         background-color: white;
     }
 
@@ -268,10 +273,10 @@
     }
 
     .imagenes-generos {
-        width: 200px;
+        width: 150px;
     }
     
-
+    
 }
 
 
