@@ -7,19 +7,17 @@
 
 .grilla {
     width: 100%;
-    height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 3fr 0.5fr;
+    grid-template-rows: 0.09fr 5fr 0.09fr;
     grid-template-areas: 
         "header"
         "main"
         "footer"
         ;
-    grid-row-gap: 10px;
+    // grid-row-gap: 10px;
     
     background-image: url(../img/jazzwallpaper.jpg);
     background-size: 75%;
-    height: 100vh;
 }
 
