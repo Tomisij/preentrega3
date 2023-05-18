@@ -119,6 +119,11 @@
 @media (max-width: 480px) {
     .body {
         background-color: black; 
+        width: 100%;
+    }
+
+    .main-home {
+        width: 100vw;
     }
 
     .grilla {
@@ -201,6 +206,10 @@
 
     article {
         margin-right: 25px;
+    }
+
+    .container-quienes {
+        width: 100%;
     }
 }
 

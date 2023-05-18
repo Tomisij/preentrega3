@@ -346,6 +346,10 @@ footer div img {
 @media (max-width: 480px) {
   .body {
     background-color: black;
+    width: 100%;
+  }
+  .main-home {
+    width: 100vw;
   }
   .grilla {
     width: 100vw;
@@ -406,6 +410,9 @@ footer div img {
   }
   article {
     margin-right: 25px;
+  }
+  .container-quienes {
+    width: 100%;
   }
 }
 @media (max-width: 320px) {
